@@ -1,263 +1,243 @@
-<!DOCTYPE HTML>
-<!--
-	Domain by telur
-	telur.my | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (telur.my/license)
--->
-<html> 
-	<head>
-		<title>Domain by telur</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>telur.my - Premium Egg Domain for Sale</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .egg-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        .egg-bounce {
+            animation: float 3s ease-in-out infinite;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f9f3e6 0%, #f5e5c8 100%);
+        }
+        .egg-shape {
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+        }
+        .crack-effect {
+            position: relative;
+        }
+        .crack-effect::after {
+            content: "";
+            position: absolute;
+            top: 10%;
+            left: 20%;
+            width: 60%;
+            height: 70%;
+            background: linear-gradient(45deg, transparent 45%, rgba(255,255,255,0.3) 45%, rgba(255,255,255,0.3) 55%, transparent 55%);
+            transform: rotate(15deg);
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body class="font-sans gradient-bg min-h-screen">
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-sm shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="w-10 h-10 bg-amber-100 egg-shape flex items-center justify-center mr-3 shadow-inner">
+                    <div class="w-8 h-8 bg-amber-200 egg-shape shadow-inner"></div>
+                </div>
+                <h1 class="text-2xl font-bold text-amber-900">telur.<span class="text-amber-600">my</span></h1>
+            </div>
+            <div>
+                <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-white px-6 py-2 rounded-full font-medium transition-all shadow-md hover:shadow-lg">
+                    Contact Owner
+                </a>
+            </div>
+        </div>
+    </header>
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<!-- <li><a href="#two">What we do</a></li> -->
-							<li><a href="#three">Get in touch</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+    <!-- Hero Section -->
+    <section class="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-12 md:mb-0">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 leading-tight mb-6">
+                Crack into the <span class="text-amber-600">egg-cellent</span> domain
+            </h1>
+            <p class="text-lg text-gray-700 mb-8">
+                <span class="font-bold">telur.my</span> is a premium domain perfect for egg-related businesses, food blogs, nutrition services, or any egg-citing venture in Malaysia and beyond.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-xl text-center">
+                    Make an Offer
+                </a>
+                <a href="#features" class="border-2 border-amber-500 text-amber-600 hover:bg-amber-50 px-8 py-4 rounded-full font-bold text-lg transition-all shadow hover:shadow-md text-center">
+                    Learn More
+                </a>
+            </div>
+        </div>
+        <div class="md:w-1/2 relative">
+            <div class="relative max-w-md mx-auto">
+                <div class="w-64 h-80 bg-white egg-shape shadow-xl mx-auto egg-float relative overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-b from-amber-100 to-amber-200 egg-shape"></div>
+                    <div class="absolute top-1/4 left-1/4 w-1/2 h-1/2 bg-white/30 egg-shape"></div>
+                </div>
+                <div class="absolute -bottom-10 -left-10 w-24 h-32 bg-amber-100 egg-shape shadow-lg egg-bounce opacity-80"></div>
+                <div class="absolute -top-10 -right-10 w-20 h-28 bg-amber-50 egg-shape shadow-md egg-bounce opacity-80" style="animation-delay: 1s;"></div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- Features Section -->
+    <section id="features" class="bg-white/80 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-amber-900 mb-16">
+                Why <span class="text-amber-600">telur.my</span> is egg-ceptional
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-amber-50 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all">
+                    <div class="w-16 h-16 bg-amber-100 rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-globe-asia text-amber-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-amber-900 mb-3">Malaysian Focus</h3>
+                    <p class="text-gray-700 text-center">
+                        ".my" domains are perfect for businesses targeting the Malaysian market, giving instant local credibility.
+                    </p>
+                </div>
+                <div class="bg-amber-50 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all">
+                    <div class="w-16 h-16 bg-amber-100 rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-lightbulb text-amber-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-amber-900 mb-3">Memorable Brand</h3>
+                    <p class="text-gray-700 text-center">
+                        "telur" means egg in Malay - short, simple, and perfect for any egg-related business or concept.
+                    </p>
+                </div>
+                <div class="bg-amber-50 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all">
+                    <div class="w-16 h-16 bg-amber-100 rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-chart-line text-amber-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-amber-900 mb-3">High Potential</h3>
+                    <p class="text-gray-700 text-center">
+                        Premium domains appreciate in value and offer better SEO potential than longer alternatives.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>telur</h1>
-							<h2>This Domain is For sale</h2>
-							<h5>Contact: sean.collab.now@gmail.com</h5>
-							
-							<img src="images/image.webp" style="max-width: 88vw;max-width: 88%;" alt="" data-position="center center" />
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
+    <!-- Potential Uses -->
+    <section class="py-16 gradient-bg">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-amber-900 mb-4">
+                Egg-citing possibilities
+            </h2>
+            <p class="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto">
+                This versatile domain could be perfect for:
+            </p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all flex items-start">
+                    <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                        <i class="fas fa-utensils text-amber-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-amber-900 mb-1">Restaurants & Cafés</h3>
+                        <p class="text-gray-600">Perfect for breakfast spots or egg-focused eateries.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all flex items-start">
+                    <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                        <i class="fas fa-shopping-basket text-amber-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-amber-900 mb-1">Egg Suppliers</h3>
+                        <p class="text-gray-600">Ideal for farms, distributors, or organic egg sellers.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all flex items-start">
+                    <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                        <i class="fas fa-blog text-amber-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-amber-900 mb-1">Food Blogs</h3>
+                        <p class="text-gray-600">Great for recipe sites or cooking tutorials.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all flex items-start">
+                    <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                        <i class="fas fa-heartbeat text-amber-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-amber-900 mb-1">Nutrition Services</h3>
+                        <p class="text-gray-600">For dietitians or health coaches specializing in protein.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all flex items-start">
+                    <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                        <i class="fas fa-graduation-cap text-amber-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-amber-900 mb-1">Educational</h3>
+                        <p class="text-gray-600">Teaching about poultry, biology, or cooking techniques.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all flex items-start">
+                    <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                        <i class="fas fa-laugh-squint text-amber-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-amber-900 mb-1">Fun Projects</h3>
+                        <p class="text-gray-600">Egg-themed games, memes, or creative ventures.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
+    <!-- Testimonial/Quote -->
+    <section class="py-16 bg-amber-900 text-white">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="text-center">
+                <div class="w-20 h-20 bg-amber-700 egg-shape mx-auto mb-8 flex items-center justify-center crack-effect">
+                    <i class="fas fa-quote-left text-amber-200 text-2xl"></i>
+                </div>
+                <blockquote class="text-2xl md:text-3xl font-medium italic mb-8">
+                    "In the world of domains, short, meaningful, and locally relevant names like telur.my are golden eggs - rare, valuable, and full of potential."
+                </blockquote>
+                <div class="text-amber-200 font-medium">
+                    — Domain Industry Expert
+                </div>
+            </div>
+        </div>
+    </section>
 
-									<h2>The telur’s Journey</h2>
-									<p>
-
-										In the bustling city of Innovatia, there lived a young entrepreneur named Alex. Alex was known for his boundless curiosity and relentless drive to make the world a better place. He had a vision that went beyond the ordinary—a vision to create a sustainable future through technology and innovation.
-										
-										One day, while walking through the city’s crowded streets, Alex noticed the increasing pollution and the growing number of people struggling to find clean water. This sight ignited a spark within him. He decided to dedicate his life to solving these pressing issues.
-										
-										Alex gathered a team of like-minded individuals who shared his passion for change. They worked day and night, brainstorming and teluring with various ideas. After months of hard work, they developed a groundbreaking water purification system that could convert polluted water into clean, drinkable water using solar energy.
-										
-										With their invention ready, Alex and his team presented it to the city council. The council was impressed and decided to implement the system across Innovatia. The results were astounding—clean water was now accessible to everyone, and the city’s pollution levels began to decrease.
-										
-										But Alex’s vision didn’t stop there. He wanted to share this technology with the world. He traveled to different countries, collaborating with governments and organizations to bring clean water to communities in need. His efforts were recognized globally, and he received numerous awards for his contributions to sustainability.
-										
-										Years passed, and Innovatia transformed into a model city of innovation and sustainability. Alex’s vision had become a reality, and his journey inspired countless others to pursue their dreams and make a positive impact on the world.
-										
-										Alex’s story is a testament to the power of vision and determination. It reminds us that with a clear vision and unwavering dedication, we can overcome any challenge and create a better future for all.
-										
-										I hope you enjoyed the story! If you have any specific themes or elements you’d like to include, feel free to let me know!
-										
-									
-									</p>
-
-									
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">	<h2>The Great Office Prank</h2>
-									<p>
-										
-
-In a bustling tech company, there was a team known for their camaraderie and playful spirit. Among them was Sam, the office prankster, who was always up to some mischief. One day, Sam decided to pull off the ultimate prank on his boss, Mr. Thompson, who was known for his serious demeanor.
-
-Sam carefully planned his prank. He bought a realistic-looking rubber spider and placed it inside Mr. Thompson’s desk drawer. The next morning, as Mr. Thompson arrived at the office, Sam and his colleagues watched in anticipation.
-
-Mr. Thompson sat down at his desk, opened the drawer, and let out a loud yelp as he saw the spider. He jumped back, knocking over his chair, and the entire office burst into laughter. Mr. Thompson, realizing it was a prank, couldn’t help but chuckle himself.
-
-But the prank didn’t end there. Mr. Thompson decided to get back at Sam. He called a meeting and announced that the company was implementing a new dress code—everyone had to wear formal attire, including ties, starting the next day. Sam, who loved his casual clothes, was horrified.
-
-The next morning, Sam showed up in a full suit and tie, looking uncomfortable. As he walked into the office, he noticed everyone else was still in their casual clothes. Mr. Thompson walked up to him, grinning, and said, “Gotcha!”
-
-The office erupted in laughter once again, and Sam had to admit, Mr. Thompson had won this round. From that day on, the office was filled with even more laughter and a newfound respect for their boss’s sense of humor.
-									</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-								
-								
-									<h2>telur?</h2>
-									<p>
-										
-										telur Leadership
-Innovative Solutions
-Future Trends
-Creative Thinking
-Strategic Planning
-Business Growth
-Technology Advancements
-Entrepreneurship
-Market Insights
-Digital Transformation
-Sustainable Development
-Customer Experience
-Brand Strategy
-Product Innovation
-Industry Disruption</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
-
-				<!-- Two -->
-					<!-- <section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
-						</div>
-					</section> -->
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Keen to own or advertise here? </p>
-							<div class="split style1">
-								 <section>
-									<!-- <form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form> -->
-								</section> 
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>Somewhere in Malaysia</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">sean.collab.now@gmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(+60) 10-2264984</span>
-										</li>
-										<!-- <li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li> -->
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; telur. All rights reserved.</li><li>
-							 </li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-gradient-to-br from-amber-50 to-amber-100 rounded-3xl shadow-xl overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 p-12 bg-amber-600 text-white">
+                        <h2 class="text-3xl font-bold mb-6">Get in touch</h2>
+                        <p class="mb-8 text-amber-100">
+                            Interested in acquiring this premium domain? Contact the owner directly to discuss pricing and transfer details.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="mt-1 mr-4">
+                                    <i class="fas fa-envelope text-amber-200"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Email</h4>
+                                    <a href="mailto:sean.collab.now@gmail.com" class="text-amber-100 hover:text-white">sean.collab.now@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 p-12">
+                        <h3 class="text-2xl font-bold text-amber-900 mb-6">Send a message</h3>
+                        <form id="contactForm" class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500">
+                           
 </html>
